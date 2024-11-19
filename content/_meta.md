@@ -1,8 +1,8 @@
 ---
-Logo: image/leaf_256x256.png
-Tagline: My portfolio.
+Logo: image/oe.png
+Tagline: Olivias portfolio.
 Social:
-    - title: Link till sidans github repo.
-      url: https://github.com/dbwebb-se/design-v3
+    - title: Link till Olivias github repo.
+      url: https://github.com/aliziz27/BTHdesign24
       icon: github
 ---
