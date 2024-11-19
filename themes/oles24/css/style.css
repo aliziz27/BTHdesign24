@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: pink;
+    background-color: #ffffff;
 }
 
 ol, ul {
@@ -30,6 +30,8 @@ body {
 
 .main {
     flex: 1 0 auto;
+    padding-left: 3em;
+    padding-right: 3em;
 }
 
 .header, .footer {
@@ -41,6 +43,7 @@ body {
 .header, .site-header {
     display: flex;
     justify-content: space-between;
+    background-color: #7ed1c5;
 }
 
 /* Title */
@@ -57,16 +60,19 @@ body {
         min-width: 50%;
     }
     .logo {
-        max-width: 30%;
+        max-width: 50%;
     }
 }
 
 .title * {
-    color: #111;
+    color: #a503b4;
+    font-size: 35px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .title p {
-    font-style: italic;
+    font-style: bold;
+    font-size: 16px;
 }
 
 /* Footer */
@@ -75,10 +81,11 @@ body {
     display: flex;
     justify-content: space-between;
     border-top: 1px solid #222;
+    background-color: #D0F2ED;
 }
 
 .footer a {
-    color: #222;
+    color: #eb1768;
 }
 
 .footer .social {
@@ -90,7 +97,7 @@ body {
 body {
     font-family: sans-serif;
     line-height: 1.5rem;
-    color: #444;
+    color: #272a2b;
 }
 
 p, td, th, li, dd {
@@ -102,10 +109,16 @@ p, td, th, li, dd {
 h1, h2, h3, h4, h5, h6 {
     margin-bottom: 0.6em;
     font-weight: bold;
+    margin-top: 1em;
 }
 
 img {
-    max-width: 100%;
+    max-width: 30%;
+    border-radius: 10%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 
 /* BELOW ARE PREPARED STYLES FOR CODE/PRE/BLOCKQUOTE, FEEL FREE TO REMOVE IT  */
