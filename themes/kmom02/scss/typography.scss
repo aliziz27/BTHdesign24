@@ -1,0 +1,73 @@
+* {
+  color: $font-color;
+  font-family: 'Hind', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+  
+.hind-regular {
+  font-family: 'Hind', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+  
+.hind-semibold {
+  font-family: 'Hind', sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+  
+.hind-bold {
+  font-family: 'Hind', sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+  
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: xx-large;
+  margin-bottom: 0.6em;
+  margin-top: 1em;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Montserrat', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-size: x-large;
+  margin-bottom: 0.6em;
+  margin-top: 1em;
+}
+
+body {
+  font-family: sans-serif;
+  line-height: 1.5rem;
+  color: #272a2b;
+}
+  
+p,
+td,
+th,
+li,
+dd {
+  text-align: justify;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+}
+  
+img {
+  max-width: 30%;
+  border-radius: 10%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}

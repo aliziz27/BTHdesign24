@@ -1,0 +1,121 @@
+@import '../../shared/fontawesome/scss/fontawesome';
+$fa-font-path: '../../shared/fontawesome/webfonts';
+@import '../../shared/fontawesome/scss/brands';
+@import '../../shared/fontawesome/scss/solid';
+@import '../../shared/fontawesome/scss/regular';
+@import '../../node_modules/normalize.css/normalize';
+@import 'variables';
+@import 'blockquotes';
+@import 'code';
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import 'mobile-menu';
+@import 'typography';
+
+
+body {
+  background-color: $background-color;
+}
+
+* {
+  box-sizing: border-box;
+  border: 0 none;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #fff;
+}
+
+ol,
+ul {
+  padding-left: 1.5em;
+}
+
+.hidden {
+  display: none !important;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+/* Placement */
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.main {
+  flex: 1 0 auto;
+  padding-left: 3em;
+  padding-right: 3em;
+}
+
+.header,
+.footer {
+  flex: 0 0 auto;
+}
+
+/* Header */
+
+.header,
+.site-header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #7ed1c5;
+}
+
+/* Title */
+
+.title,
+.logo {
+  padding: 3em 3em 3em 0;
+}
+
+@media (max-width: 767px) {
+  .title,
+  .logo {
+    padding: 1em 1em 1em 0;
+  }
+
+  .title {
+    min-width: 50%;
+  }
+
+  .logo {
+    max-width: 50%;
+  }
+}
+
+.title * {
+  color: $accent-color;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.title p {
+  font-style: bold;
+  font-size: 16px;
+}
+
+/* Footer */
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #222;
+  background-color: $footer-background;
+  padding: 0 1em;
+  height: 3em;
+}
+
+.footer a {
+  color: transparent;
+}
+
+.footer .social {
+  font-size: 2rem;
+}
+
